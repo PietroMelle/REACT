@@ -1,0 +1,9 @@
+.titulo {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    border: solid white 2px;
+    border-radius: 10px;
+}
