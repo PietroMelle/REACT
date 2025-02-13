@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Links from "./Components/Links";
+import Mensagem from "./Components/Mensagem";
+import Rodape from "./Components/Rodape";
+import fotoReact from "./assets/React.png";
+import fotoUsuario from "./assets/fotoPerfil.png";
+import fotoUsuario2 from "./assets/fotoPerfil2.png";
+import Usuario from "./Components/Perfil";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app-container">
+
+      <div className="links-container">
+        <Links />
+        <Mensagem texto="Este é um componente reutilizável com PROPS!" />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <br />
+
+      <div className="perfil-container">
+        <Usuario nome="XXXTENTACION_SAD" descricao="Jogador de Xbox 360 mais antigo da história (e também o melhor)." imagem={fotoUsuario} />
+        <br />
+        <br />
+        <Usuario nome="Authentic Games" descricao="O melhor jogador e Youtuber de Minecraft da História" imagem={fotoUsuario2} />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+      <br />
+      <br />
+
+      <footer className="rodape-container">
+        <Rodape texto="Todos os direitos reservados para o criador Pietro Melle." imagem={fotoReact} />
+      </footer>
+
+    </div>
+  );
 }
 
-export default App
+export default App;

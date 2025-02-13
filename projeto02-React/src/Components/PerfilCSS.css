@@ -1,0 +1,11 @@
+.container-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #dc35ad;
+    border-radius: 10px;
+    width: 50%;
+    padding: 1em;
+    margin: 0 auto;
+}
+

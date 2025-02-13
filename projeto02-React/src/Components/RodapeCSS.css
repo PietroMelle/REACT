@@ -1,0 +1,23 @@
+.container-rodape {
+    display: flex;
+    background-color: #755465;
+    border-radius: 10px;
+    padding: 1em;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 6px 5px 0px gray;
+    transition: all 1s ease;
+    align-items: center;
+    margin: auto;
+}
+
+.container-rodape:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 7em;
+    height: auto;
+    padding-left: 3em;
+}
