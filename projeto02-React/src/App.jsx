@@ -5,6 +5,7 @@ import fotoReact from "./assets/React.png";
 import fotoUsuario from "./assets/fotoPerfil.png";
 import fotoUsuario2 from "./assets/fotoPerfil2.png";
 import Usuario from "./Components/Perfil";
+import Botoes from "./Components/Botao";
 import "./App.css";
 
 function App() {
@@ -23,6 +24,15 @@ function App() {
         <br />
         <Usuario nome="Authentic Games" descricao="O melhor jogador e Youtuber de Minecraft da História" imagem={fotoUsuario2} />
       </div>
+
+      <br />
+      <br />
+
+      <section className="container-botoes">
+      <Botoes  classe="primario-botao" texto="Clique aqui" />
+      <br />
+      <Botoes classe="secundario-botao" texto="Clique aqui" />
+      </section>
 
       <br />
       <br />

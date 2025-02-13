@@ -1,0 +1,69 @@
+* {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.primario-botao {
+    background-color: #dc35ad;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 15vw;
+    height: auto;
+    box-shadow: 6px 5px 0px gray;
+    cursor: pointer;
+    transition: all 1s ease;
+    animation-name: arco-iris;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arco-iris {
+    0%   {background-color: orange;}
+  25%  {background-color: magenta;}
+  50%  {background-color: brown;}
+  100% {background-color: bisque;}
+  50%  {background-color: brown;}
+  25%  {background-color: magenta;}
+  0%   {background-color: orange;}
+}
+
+.primario-botao:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.secundario-botao {
+    background-color: bisque;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 15vw;
+    box-shadow: 6px 5px 0px gray;
+    height: auto;
+    cursor: pointer;
+    transition: all 1s ease;
+    animation-name: coloridinho;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coloridinho {
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+  50%  {background-color: blue;}
+  25%  {background-color: yellow;}
+  0%   {background-color: red;}
+}
+
+.secundario-botao:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+button {
+    color: black;
+    font-style: italic;
+    font-size: large;
+}
