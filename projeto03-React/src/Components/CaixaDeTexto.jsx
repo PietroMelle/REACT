@@ -6,9 +6,10 @@ function caixaDeTexto() {
 
   return (
     <section className="container-texto">
-      <input type="text" value={texto} onChange={(evento) => setCaixaDeTexto(evento.target.value)} />
+        <label>Digite um texto aqui</label>
+      <input type="text" label="" value={texto} onChange={(evento) => setCaixaDeTexto(evento.target.value)} />
 
-      <p>Texto digitado: {texto}</p>
+      <p>Texto digitado: <b>{texto}</b> </p>
     </section>
   );
 }

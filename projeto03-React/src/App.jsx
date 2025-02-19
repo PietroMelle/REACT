@@ -1,6 +1,4 @@
-import Contador from './Components/Contador'
-import Texto from './Components/CaixaDeTexto'
-import CorFavorita from './Components/PreferenciaCor'
+import Tema from './Components/Tema'
 import './App.css'
 
 function App() {
@@ -8,23 +6,9 @@ function App() {
   return (
     <>
         <section>
-          <h1> Meu Aplicativo React </h1>
-          <p> Este é um exemplo de estado no React.</p>
-
-          {/* Chamamos o componente Contador */}
-          <Contador />
-
-            <br />
-            <hr />
-            <br />
-
-          <CorFavorita />
           
-          <br />
-          <hr />
-          <br />
+          <Tema />
 
-          <Texto />
         </section>
     </>
   )

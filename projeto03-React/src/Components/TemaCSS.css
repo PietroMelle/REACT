@@ -1,0 +1,30 @@
+
+.claro {
+    background-color: white;
+    color: black;
+    padding: 5em;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.escuro {
+    background-color: black;
+    color: white;
+    padding: 5em;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.claro button {
+    background-color: black;
+}
+
+.escuro button {
+    background-color: white;
+    color: black;
+}
