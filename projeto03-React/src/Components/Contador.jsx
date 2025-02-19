@@ -6,11 +6,13 @@ function Contador() {
   const [contador, setContador] = useState(0);
 
     function aumentar() {
-        setContador(contador + 1);
+        setContador(contador => contador + 1);
+        setContador(contador => contador + 1); // Agora realmente aumenta +2
     }
 
     function diminuir() {
-        setContador(contador - 1);
+        setContador(contador => contador - 1);
+        setContador(contador => contador - 1);
     }
 
   return (

@@ -1,4 +1,4 @@
-import Tema from './Components/Tema'
+import Carrinho from "./Components/Carrinho" 
 import './App.css'
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
   return (
     <>
         <section>
-          
-          <Tema />
+         
+          <Carrinho />
 
         </section>
     </>

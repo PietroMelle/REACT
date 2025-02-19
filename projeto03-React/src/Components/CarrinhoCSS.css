@@ -1,0 +1,20 @@
+.container-carrinho {
+    padding: 5em;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.adicionar {
+    color: green;
+}
+
+.remover {
+    color: red;
+}
+
+.botoes {
+    flex-direction: row;
+    display: flex;
+    gap: 3em;
+}
