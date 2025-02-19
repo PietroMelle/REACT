@@ -1,4 +1,5 @@
 import Contador from './Components/Contador'
+import Texto from './Components/CaixaDeTexto'
 import CorFavorita from './Components/PreferenciaCor'
 import './App.css'
 
@@ -13,7 +14,17 @@ function App() {
           {/* Chamamos o componente Contador */}
           <Contador />
 
+            <br />
+            <hr />
+            <br />
+
           <CorFavorita />
+          
+          <br />
+          <hr />
+          <br />
+
+          <Texto />
         </section>
     </>
   )
