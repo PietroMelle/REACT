@@ -1,0 +1,17 @@
+.vermelho {
+    background-color: red;
+    cursor: pointer;
+}
+
+.azul {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.container-curtidas {
+    font-size: 1.5em;
+}
+
+p {
+    font-style: oblique;
+}

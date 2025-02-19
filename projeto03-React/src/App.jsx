@@ -1,4 +1,4 @@
-import Carrinho from "./Components/Carrinho" 
+import Curtidas from "./Components/Curtir" 
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
         <section>
          
-          <Carrinho />
+          <Curtidas />
 
         </section>
     </>
