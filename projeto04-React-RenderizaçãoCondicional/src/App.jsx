@@ -3,7 +3,8 @@ import RendCondCOMCurtoCircuito from "./Components/RendCond(&&)";
 import RendCondCOMTernario from "./Components/RendCond(OTernario)";
 import Carrinho from "./Components/RendCondCarrinho";
 import MostrandoMensagem from "./Components/RendCondMostrandoMnsgs";
-import MensagemDeErro from "./Components/RendCondErroMensagem"
+import MensagemDeErro from "./Components/RendCondErroMensagem";
+import PainelDeUsuario from "./Components/RendCondPainelDeUsuario";
 import "./App.css";
 
 function App() {
@@ -46,6 +47,10 @@ function App() {
         <section className="separacao">
         <MostrandoMensagem tipo="erro" />
         <MostrandoMensagem tipo="sucesso" />
+        </section>
+
+        <section className="separacao">
+          <PainelDeUsuario />
         </section>
 
       </section>

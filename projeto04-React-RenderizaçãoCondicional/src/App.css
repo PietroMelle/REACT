@@ -22,6 +22,7 @@
   border: 1px solid purple;
   width: 30vw;
   padding: 2em;
+  align-items: center;
 }
 
 hr {
