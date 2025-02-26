@@ -19,15 +19,18 @@
 }
 
 .separacao {
-  border: 1px solid purple;
-  width: 30vw;
+  border: 2px solid purple;
+  border-radius: 10px;
+  width: 35vw;
   padding: 2em;
   align-items: center;
 }
 
 hr {
-  width: 10em;
+  width: 30em;
 }
+
+
 
 @keyframes logo-spin {
   from {
