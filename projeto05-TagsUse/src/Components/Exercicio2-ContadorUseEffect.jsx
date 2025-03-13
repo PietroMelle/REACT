@@ -19,7 +19,7 @@ function Contador1s() {
 
   return (
     <div>
-      <p>Contador: {contador}</p>
+      <p> <strong> Contador: {contador} </strong> </p>
     </div>
   );
 }

@@ -9,13 +9,12 @@ import Limpeza from "../Components/cleanUp-Limpeza";
 function Exemplos() {
   return (
     <>
+
+    <a href="http://localhost:5173/"> Voltar para Home </a>
+    
       {/* ✅ Exemplos */}
       {/* 1. Atualizar Título da Página */}
-      <h1>
-        {" "}
-        🔆 Botão de Atualização de Título da Página juntamente com um contador
-        🔢{" "}
-      </h1>
+      <h1> 🔆 Botão de Atualização de Título da Página juntamente com um contador 🔢 </h1>
       <center>
         <section className="container">
           <AtualizarTituloPagina />
@@ -78,10 +77,7 @@ function Exemplos() {
       <h1> 🧹 Limpeza - CleanUp 🧼</h1>
       <center>
         <section className="container">
-          <p>
-            {" "}
-            <strong> Clique no F12 e veja a mágica acontecer! </strong>{" "}
-          </p>
+          <p> <strong> Clique no F12 e veja a mágica acontecer! </strong> </p>
           <Limpeza />
         </section>
       </center>
