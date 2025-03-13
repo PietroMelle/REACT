@@ -1,40 +1,24 @@
-// CSS
-import "./App.css";
-
 // Components
-import AtualizarTituloPagina from "./Components/attTituloDaPagina";
-import TemaDoSitePelaHora from "./Components/temaSiteComHorario";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+// Style
+import './App.css'
+
+// Pages
+import Home from './Pages/Home'
+import Exemplos from './Pages/Exemplos'
+import Exercicios from './Pages/Exercicios'
 
 function App() {
   return (
-    <>
-    {/* 1. Atualizar Título da Página */}
-      <h1> 🔆 Botão de Atualização de Título da Página juntamente com um contador 🔢 </h1>
-      <center>
-      <section className="container">
-        <AtualizarTituloPagina />
-      </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-      {/* 2. Sincronizando Tema do Site com o Horário do Dia */}
-      <h1> 🔗 Sincronizando Tema do Site com o Horário do Dia 🌙🌞</h1>
-      <center>
-      <section className="container">
-        <TemaDoSitePelaHora />
-        </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-
-    </>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/exemplos' element={<Exemplos />} />
+        <Route path='/exercicios' element={<Exercicios />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
