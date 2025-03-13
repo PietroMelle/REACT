@@ -1,0 +1,7 @@
+.reflexo button:hover {
+    transform: scale(1.1);
+}
+
+.reflexo button {
+    transition: all 1s ease;
+}

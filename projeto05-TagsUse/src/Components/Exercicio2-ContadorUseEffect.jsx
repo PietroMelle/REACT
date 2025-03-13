@@ -12,7 +12,7 @@ function Contador1s() {
   useEffect(() => {
     const intervaloTempo = setInterval(() => {
       setContador(contador + 1);
-    }, 1000); // A cada 1000 mlisegundos (1 segundo)
+    }, 1000); // A cada 1000 milisegundos (1 segundo)
 
     return () => clearInterval(intervaloTempo);
   }, [contador]);
