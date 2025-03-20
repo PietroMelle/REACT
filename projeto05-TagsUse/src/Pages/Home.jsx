@@ -1,6 +1,8 @@
 // Style 
 import './Styles/Home.css';
 
+import RouteLocalStorage from "../Components/Exercicios/Exercicio1-InputTextLocalStorageAPI"
+
 function Home() {
   return (
     <div>
@@ -13,6 +15,10 @@ function Home() {
         <section className="borda">
           <a href="http://localhost:5173/exemplos"> Ir para a página de Exemplos </a>
         </section>
+      </section>
+
+      <section>
+        <RouteLocalStorage />
       </section>
     </div>
   );

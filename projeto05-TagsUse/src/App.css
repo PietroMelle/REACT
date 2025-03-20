@@ -26,6 +26,10 @@ hr {
   align-items: center;
   border: solid 1px rgb(151, 151, 151);
   padding: 1.5em;
-  width: 25%;
+  width: 25vw;
   border-radius: 10px;
+}
+
+#listaUser {
+  width: 40vw;
 }
