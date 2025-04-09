@@ -1,0 +1,25 @@
+.container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.container-input input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    text-align: center;
+    width: 25em;
+}
+
+.container-input button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1em;
+    border: none;
+}
+
+hr {
+    width: 50%;
+}

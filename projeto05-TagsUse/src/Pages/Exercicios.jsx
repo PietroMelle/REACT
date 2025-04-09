@@ -1,3 +1,9 @@
+// Components
+import Header from "../Components/HeaderExer";
+import Navbar from "../Components/NavbarExer";
+
+import "./Styles/Exercicios.css"
+
 // Components - Exercícios
 import Ex1AttTituloPg from "../Components/Exercicios/Exercicio1-AtualizarTituloPagina";
 import Ex2Contador1s from "../Components/Exercicios/Exercicio2-ContadorUseEffect";
@@ -14,13 +20,16 @@ import Ex1InputTextAPI from "../Components/Exercicios/Exercicio1-InputTextLocalS
 import Ex2InputIdade from "../Components/Exercicios/Exercicio2-InputIdade"
 import Ex3InputPreferencias from "../Components/Exercicios/Exercicio3-InputPreferencias"
 import Ex4RoutesLocalStorage from "../Components/Exercicios/Exercicio4-RoutesLocalStorage"
+import Ex5PaisesAPI from "../Components/Exercicios/Exercicio5-InputSelectAPI"
 
 function Exercicios() {
   return (
     <>
-      <a href="http://localhost:5173/"> Voltar para Home </a>
+      
+      <Header />
 
-      <h2 style={{ fontSize: "2.5em" }}> Exercícios </h2>
+      <Navbar />
+
 
       {/* 1. Atualizar Título da Página */}
       {/* <h1> Exercício 1 - Atualizar Título da Página 🔨 </h1>
@@ -94,68 +103,14 @@ function Exercicios() {
       {/* Exercícios com API's */}
 
       {/* Exercício 1 - Mensagens Automáticas */}
-      <h1> Mensagens Automáticas a cada 5 segundos com API </h1>
+      
+      <br />
+      <br />
+
       <center>
-        <section className="container" id="listaUser">
-        {/* <Ex1MensagemAutomaticaAPI /> */}
-        </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-      <h1> Mensagens Automáticas com o LocalStorage </h1>
-      <center>
-        <section className="container" id="listaUser">
-        {/* <Ex2LocalStorage /> */}
-        </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-      {/* Exercício 1 - Input de Texto com API e Local Storage */}
-      <h1> Input de Texto com API e Local Storage </h1>
-      <center>
+      <h1> Selecionando Países da API </h1>
         <section className="container">
-        <Ex1InputTextAPI />
-        </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-      {/* Exercício 2 - Input para verificar a idade */}
-      <h1> Input de Verificação de Idade 👴 </h1>
-      <center>
-        <section className="container">
-        <Ex2InputIdade />
-        </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-      {/* Exercício 3 - Input com flag de Preferencias */}
-      <h1> Input de Verificação de Idade 👴 </h1>
-      <center>
-        <section className="container">
-        <Ex3InputPreferencias />
-        </section>
-      </center>
-
-      <br />
-      <hr />
-      <br />
-
-      <h1> Input de Verificação de Idade 👴 </h1>
-      <center>
-        <section className="container">
-        <Ex4RoutesLocalStorage />
+        <Ex5PaisesAPI />
         </section>
       </center>
 

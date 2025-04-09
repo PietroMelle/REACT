@@ -1,3 +1,7 @@
+// Components
+import Header from "../Components/HeaderExem"
+import Navbar from "../Components/NavbarExem";
+
 // Components - Exemplos
 import AtualizarTituloPagina from "../Components/Exemplos/attTituloDaPagina";
 import TemaDoSitePelaHora from "../Components/Exemplos/temaSiteComHorario";
@@ -21,7 +25,9 @@ function Exemplos() {
   return (
     <>
 
-    <a href="http://localhost:5173/"> Voltar para Home </a>
+    <Header />
+
+    <Navbar />
     
     {/* ✅ Exemplos */}
 {/* 1. Atualizar Título da Página */}

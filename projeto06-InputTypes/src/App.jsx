@@ -6,6 +6,8 @@ import './App.css'
 
 // Pages
 import Home from './Pages/Home'
+import Exemplos from './Pages/Exemplos'
+import Exercicios from './Pages/Exercicios'
 
 function App() {
   return (

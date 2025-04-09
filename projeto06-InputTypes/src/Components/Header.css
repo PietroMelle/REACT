@@ -1,0 +1,27 @@
+/* Para formatar a página inteira */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    display: flex;
+    background-color: rgba(52, 52, 255, 0.719);
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    padding: 2vw;
+    font-size: 1.5vw;
+}
+
+.Header h1 {
+    transition: all 1s ease;
+    color: black;
+}
+
+.Header h1:hover {
+    transform: scale(1.1);
+    /* Faz com que, ao passar o mouse por cima do titulo, ele fique destacado */
+    transition: all 1s ease;
+}
