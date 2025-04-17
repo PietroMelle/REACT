@@ -137,7 +137,7 @@ function Exercicios() {
         <br />
 
         {/* Exercício 12 */}
-        <h2> Exercício 12 - Predutos, Quantidades e seus Preços </h2>
+        <h2> Exercício 12 - Produtos, Quantidades e seus Preços </h2>
         <br />
         <section className="container">
           <Atv12Produtos />

@@ -7,6 +7,8 @@ function Navbar() {
       <span> <Link className="fonte" id="ulnk" to="/"> <strong> 🏡 Home </strong> </Link> </span>
 
       <span> <Link className="fonte" id="link" to="/exemplos"> <strong> 📦 Exemplos </strong> </Link> </span>
+
+      <span> <Link className="fonte" id="link" to="/desafios"> <strong> 🎯 Desafios </strong> </Link> </span>
     </nav>
   );
 }

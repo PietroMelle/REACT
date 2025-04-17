@@ -21,7 +21,7 @@ function ProdutoPreco () {
         onChange={(e)=>setQuantidade(e.target.value)}
         />
 
-        <p>Total: R$ {produto*quantidade}</p>
+        <p>Total: R$ {produto*quantidade} </p>
         </form>
     )
 }
